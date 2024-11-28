@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SatvicMovementTests" parallel="false">
+
+   <test name="EngageSanitySuite">
+       <classes>
+           <parameter name="browser" value="chrome" />
+           <class name="com.example.AppTest"/>
+           <methods>
+           <include name = 'Login_With_Invalid_Credintials'/>
+           <include name = 'Login_With_Valid_Credintials'/>
+           </methods>
+
+    </classes>
+  </test> 
+  </suite>

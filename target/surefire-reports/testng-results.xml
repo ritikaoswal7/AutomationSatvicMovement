@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-28T14:38:42Z" name="SatvicMovementTests" finished-at="2024-11-28T14:39:39Z" duration-ms="56608">
+    <groups>
+    </groups>
+    <test started-at="2024-11-28T14:38:42Z" name="EngageSanitySuite" finished-at="2024-11-28T14:39:39Z" duration-ms="56608">
+      <class name="com.example.AppTest">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:com.example.AppTest@8e24743]" started-at="2024-11-28T14:38:42Z" name="Setup" finished-at="2024-11-28T14:38:45Z" duration-ms="2807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Login_With_Invalid_Credintials()[pri:0, instance:com.example.AppTest@8e24743]" started-at="2024-11-28T14:38:45Z" name="Login_With_Invalid_Credintials" finished-at="2024-11-28T14:39:14Z" duration-ms="28880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_Invalid_Credintials -->
+        <test-method signature="Login_With_Valid_Credintials()[pri:0, instance:com.example.AppTest@8e24743]" started-at="2024-11-28T14:39:14Z" name="Login_With_Valid_Credintials" finished-at="2024-11-28T14:39:39Z" duration-ms="24604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_Valid_Credintials -->
+        <test-method is-config="true" signature="CleanUp()[pri:0, instance:com.example.AppTest@8e24743]" started-at="2024-11-28T14:39:39Z" name="CleanUp" finished-at="2024-11-28T14:39:39Z" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUp -->
+      </class> <!-- com.example.AppTest -->
+    </test> <!-- EngageSanitySuite -->
+  </suite> <!-- SatvicMovementTests -->
+</testng-results>
